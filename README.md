@@ -1,7 +1,7 @@
 ![Alt text](mp3.png)
 # MP3 to WAV Converter
 
-This is a simple web-based MP3 to WAV converter built using Streamlit and PyDub.
+This is a simple web-based MP3 to WAV converter built using Flask and PyDub.
 
 ## Features
 - **File Upload:** Upload your MP3 file easily.
@@ -16,7 +16,8 @@ This is a simple web-based MP3 to WAV converter built using Streamlit and PyDub.
 ## Setup
 To run this application locally:
 1. Clone this repository.
-2. Install the required dependencies (`streamlit`, `pydub`).
-3. Run the application using `streamlit run app.py`.
+2. cd mp3_to_wav
+3. pip install -r requirements.txt
+4. Run the application using `python mp3towav.py`.
 
 Feel free to contribute or use it as a reference for building similar tools!
